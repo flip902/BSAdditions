@@ -1,7 +1,6 @@
 import UIKit
 
-
-public extension UIView {
+extension UIView {
     
     @available(iOS 9.0, *)
     func anchor(top: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, paddingTop: CGFloat, paddingRight: CGFloat, paddingBottom: CGFloat, paddingLeft: CGFloat, width: CGFloat, height: CGFloat) {
